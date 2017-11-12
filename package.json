@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
+    "start": "http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/kaicl/kaicl.github.io#readme",
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2"
+  },
+  "devDependencies": {
+    "http-server": "^0.10.0"
   }
 }
