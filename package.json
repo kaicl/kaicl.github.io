@@ -1,0 +1,22 @@
+{
+  "name": "kaicl.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaicl/kaicl.github.io.git"
+  },
+  "author": "kaicl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaicl/kaicl.github.io/issues"
+  },
+  "homepage": "https://github.com/kaicl/kaicl.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2"
+  }
+}
