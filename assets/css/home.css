@@ -1,17 +1,17 @@
 
 
-
 .main{
+	position: relative;
 	margin: auto;
 	width: 700px;
-	height: 850px;
+	height: 100vh;
 	border: 1px solid black;
 }
 
 .logo{
-	position: fixed;
-	margin-top:320px;
-	margin-left: 300px; 
+	position: absolute;
+	bottom: 0;
+	margin-left: 300px;
 	
 	width: 390px;
 	height: 500px;
@@ -21,7 +21,7 @@
 }
 
 .about{
-	position: fixed;
+	position: absolute;
 	
 	color:red;
 	margin-top: 180px;
@@ -35,11 +35,11 @@
 }
 
 .project{
-	position: fixed;
+	position: absolute;
 	
 	transform: rotate(90deg);  
 	margin-top: 10px;
-	margin-left: 405px;
+	right:0px;
 	width:300px;
 	height: 280px;
 	font-size: 70px;
@@ -49,9 +49,11 @@
 }
 
 .contact{
-	position: fixed;
+	position: absolute;
 	
-	margin-top: 440px;
+	bottom: 0%;
+	margin-left: 0;
+	/*margin-top: 440px;*/
 	width: 200px;
 	height: 380px;
 
@@ -62,5 +64,16 @@
 	color: #F8F8F8;
 	background-color: #6C6C6C;
 }
+
+.astile{
+	top:0; 
+	left: 0;
+	margin: 0;
+}
+
+
+
+
+
 
 
