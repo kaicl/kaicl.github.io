@@ -1,34 +1,142 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>About</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<title>About-K</title>
+	<link rel="icon" type="image/png" href="img/k_icon.ico">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
 	<link rel= "stylesheet" type="text/css" href="assets/css/home.css">
 	<link rel= "stylesheet" type="text/css" href="assets/css/menu.css">
+	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
+
 </head>
 <body>
 	
 	<div class="main">
-		<div class="menu">
-			
-			<div class="menucontent">
-				<a href="about.html">ABOUT</a>
-			</div>
-			<div class="menucontent">
-				<a href="project.html">PROJECT</a>
-			</div>
-			<div class="menucontent">
-				<a href="contact.html">CONTACT</a>
-			</div>
-			<div class="menucontent">
-				<a href="index.html"><img class ="homeBack" src="img/KaiCLiu_horiz.png"></a>
+		
+		<div id="menu" class="menu">
+			<div class="fixed">
+				<nav class="navbar navbar-expand-lg navbar-light">
+	  				<button id="cll" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    				<span class="navbar-toggler-icon"></span>
+	  				</button>
+
+	  				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    				<ul class="navbar-nav mr-auto">
+	      					<li class="menucontent">
+								<a href="about.html">ABOUT</a>
+							</li>
+							<li class="menucontent">
+								<a href="project.html">PROJECT</a>
+							</li>
+							<li class="menucontent">
+								<a href="contact.html">CONTACT</a>
+							</li>
+							<li class="menucontent">
+								<a href="index.html"><img class ="homeBack" src="img/KaiCLiu_horiz.png"></a>
+							</li>
+			    		</ul>
+	    				
+	  				</div>
+				</nav>
 			</div>
 		</div>
+	
+
+		<!-- <div class="menu_opened">
+			<button class="closemenu"><i class="fa fa-times" aria-hidden="true"></i></button>
+			<div class="menucontent_opened">
+				<a href="about.html">ABOUT</a>
+			</div>
+			<div class="menucontent_opened">
+				<a href="project.html">PROJECT</a>
+			</div>
+			<div class="menucontent_opened">
+				<a href="contact.html">CONTACT</a>
+			</div>
+			<div class="menucontent_opened">
+				<a href="index.html"><img class ="homeBack" src="img/KaiCLiu_horiz.png"></a>
+			</div>
+		</div> -->
 
 		<div class = "astile about">
 			ABOUT
 		</div>
-	</div>
 
+		<div class= "introtext">
+			<p>My name is Kai C (Luci) Liu and I recently graduated from Santa Clara University with msater degree in Computer Science Engineer program. 
+
+			I am hunting for full-time job opportunity on software engineer.
+			</p>
+
+		</div>
+		<div class= "resumetext">
+			<div class="res_section">
+				<h2>EDUCATION</h2>
+				<p>
+					M.S. in Computer Science & Engineering, Santa Clara University, Santa Clara, CA 
+				<br>
+					Expected graduation date: June 2018 </p>
+
+				<p>
+					B.S. in Physiology & Neuroscience, UC San Diego, La Jolla, CA 
+					<br>
+					Minor: Studio Visual Arts 
+					<br>
+					Graduation date: December 2015
+				</p>
+			</div>
+			<div class="res_section"> 
+
+				<h2>WORK EXPERIENCE</h2>
+				<div class="work_section">
+					<section class="res-date">
+						Mar 2018 - Present. 
+					</section>
+					<section class="res_description">
+						Innovation & Technology Intern (Application)
+						<br>
+						The City of Cupertino, Cupertino, CA
+					</section>
+				</div>
+
+				
+				<div class="work_section">
+					<section class="res-date">
+						Sep 2017 - Mar 2018.
+					</section>
+					<section class="res_description">
+						Web Designer
+						<br>
+						Pactech Inc., San Jose, CA
+					</section>
+				</div>
+
+  				<div class="work_section">
+					<section class="res-date">
+						Oct 2016 - Jun 2017.
+					</section>
+					<section class="res_description">
+						Website Intern
+						<br>
+						Silicon Valley Jiaren Association, San Jose, CA
+					</section>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<footer>
+      <p><i class="fa fa-copyright" aria-hidden="true"></i> Kai C Liu. 2018</p>
+    </footer>
+
+	
+  	<script src="https://code.jquery.com/jquery-3.2.1.js"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/menu.js"></script> 
+
+	
 </body>
 </html>
