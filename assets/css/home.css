@@ -14,7 +14,10 @@ body{
 	
 	/*border: 1px solid black;*/
 }
-
+.container{
+	width: 100%;
+	z-index: -1;
+}
 .logo{
 	position: absolute;
 	bottom: 0;
@@ -82,6 +85,8 @@ body{
 	top:0; 
 	margin: 0;
 	left: inherit;
+	z-index: 1;
+
 }
 
 .project-astitle{
