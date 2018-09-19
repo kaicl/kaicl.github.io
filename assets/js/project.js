@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-$(".projectobj").hover(function () {
-    $(this).toggleClass("projectobj_show");
-    $(this.button).toggleClass("button_show")
-=======
+
+
 var currtnt_p = 0;
 
 $("#p1").click(function(){
@@ -64,5 +61,5 @@ $(".content__close").click(function(){
 	}
 	$(".content__close").css("opacity","0");
 	$(".slideshow").css("display","none");
->>>>>>> dev
+
 });

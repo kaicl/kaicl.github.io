@@ -1,14 +1,5 @@
 .projectobj{
-<<<<<<< HEAD
-	border: 1px solid;
-	width: 100%;
-	height: 100%;
-	background-color: black;
-	color:black;
-	transition-duration: 1s;
-}
-=======
-	
+
 	width: 100%;
 	height: 100%;
 	background:transparent;
@@ -46,15 +37,11 @@
 	z-index: -1;
 
 }
->>>>>>> dev
-.projectobj_show{
-	background-color: white;
-	
-}
+
 .p_title{
 	font-size: 3.1em;
 	color:white;
-<<<<<<< HEAD
+
 }
 
 .viewProject_btn{
@@ -67,9 +54,7 @@
 }
 .button_show {
     display: block;
-    
-=======
->>>>>>> dev
+
 }
 
 .viewProject_btn{
