@@ -7,12 +7,18 @@ $("#p1").click(function(){
 	$(".slideshow").css("display","block");
 	$("#c1").css("display","block");
 	$(".content__close").css("opacity","1");
+
 });
 
 $("#p2").click(function(){
 	currtnt_p=2;
 	$(".slideshow").css("display","block");
-	$("#c2").css("display","block");
+	$("#c2").css({
+		"display":"inline-block",
+		
+		 "background":"#ccc"
+	
+	});
 	$(".content__close").css("opacity","1");
 });
 
