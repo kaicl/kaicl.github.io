@@ -24,7 +24,7 @@
 
 .menucontent{
     transform: rotate(90deg);  
-   
+   transition-duration: 0s;
     
     /*height: 1.6em;*/
     width: 1.8em;
@@ -96,11 +96,7 @@ a:hover{
     color:#6C6C6C;
    -webkit-transform: translateY(0);
     transform: translateY(0);
-    -webkit-transition: opacity .8s cubic-bezier(.165,.84,.44,1),-webkit-transform .8s cubic-bezier(.165,.84,.44,1);
-    transition: opacity .8s cubic-bezier(.165,.84,.44,1),-webkit-transform .8s cubic-bezier(.165,.84,.44,1);
-    transition: opacity .8s cubic-bezier(.165,.84,.44,1),transform .8s cubic-bezier(.165,.84,.44,1);
-    transition: opacity .8s cubic-bezier(.165,.84,.44,1),transform .8s cubic-bezier(.165,.84,.44,1),-webkit-transform .8s cubic-bezier(.165,.84,.44,1);
-
+    transition-duration: 0s;
 }
 /*
 .menucontent2 {
